@@ -23,6 +23,10 @@ sourceSets {
 	}
 }
 
+jar.manifest {
+	attributes('Main-Class': 'JvmVersion')
+}
+
 test {
 	testLogging.exceptionFormat = 'full'
 }
