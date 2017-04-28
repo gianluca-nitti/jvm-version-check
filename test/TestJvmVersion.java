@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 public class TestJvmVersion {
 
-	private static int RAND_BOUND = 200;
+    private static int RAND_BOUND = 200;
 
     private String randomVersionString(Random r, boolean hasUpdate) {
         if (hasUpdate)
